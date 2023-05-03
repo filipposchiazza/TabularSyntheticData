@@ -22,3 +22,5 @@ gradually adds noise to an initial sample $x_0$ from the data distribution $q(x_
 Reverse diffusion process 
 $$p(x_{0:T})=\prod_{t=1}^{T}p(x_{t-1}|x_t)$$
 gradually denoises a latent variable $x_T$ from the distribution $q(x_T)$ and allows to generate new data samples from $q(x_0)$. The distributions $p(x_{t-1}|x_t)$ are unknown and approximated with a neural network with parameters $\theta$.
+
+Simple mathematical explanation: https://theaisummer.com/diffusion-models/
