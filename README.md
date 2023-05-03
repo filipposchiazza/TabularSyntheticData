@@ -12,7 +12,7 @@ https://arxiv.org/abs/2209.15421.pdf (Diffusion)
 
 https://arxiv.org/pdf/1503.02182.pdf (Latent Gaussian Process)
 
-## Diffusion Models
+## Diffusion Models (https://arxiv.org/pdf/2006.11239.pdf)
 Forward process:
 
 $$ q(x_{1:T})=\prod_{t=1}^{T}q(x_t|x_{t-1})$$
